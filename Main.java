@@ -28,3 +28,19 @@ public class Main {
          System.out.println("Hello,  static , Outer");
          //return "0";
   }
+void /*String*/ hellom(){
+         System.out.println("Hello, method , Outer");
+         //return "0";
+  }
+}
+ 
+ 
+ Output:
+
+-----------Main Code----------
+5
+Hello,  static , Main
+Hello,  static , Outer
+5
+Hello , method , Main
+Hello, method , Outer
