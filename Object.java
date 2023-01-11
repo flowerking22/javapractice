@@ -18,3 +18,14 @@ class Apple {
     System.out.println("Dual 12MP Ultra Wide and Wide cameras");
   }
 }
+
+
+
+
+
+utput:
+
+Apple's new realease is iPhone 11
+Capacity : 256 GB
+Liquid retina HD Display of 6.1 inches.
+Dual 12MP Ultra Wide and Wide cameras
