@@ -30,7 +30,7 @@
 <a href="https://onecompiler.com/tutorials/java/oops/encapsulation">Encapsulation</a>
 </li>
   <li>
-<a href="   https://onecompiler.com/tutorials/java/collections/collections-framework "> Collections  </a>
+<a href="https://onecompiler.com/tutorials/java/collections/collections-framework"> Collections  </a>
 </li>
     <li>
 <a href="    ">   </a>
