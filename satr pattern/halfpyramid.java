@@ -7,7 +7,7 @@ class HalfPyramid{
     int r=sc.nextInt();
     System.out.println("------Half Pyramid---------\n You Selected Rows is "+r);
     for (int i=1;i<=r;i++){
-      for (int j=1;j<=i;j++){
+      for (int j=1;j<=i;j++){    /*   for(int j=0;j<=r-i;j++){     */
       
         System.out.print("*");
       }
