@@ -20,18 +20,17 @@
 22 23 24 25 26 27 28 
 
       
-      
-        void floydtriangle(int r){
+    void floydtriangle(int r){
       System.out.println("---- Floyd's Triangle with Numbers-----\n n is "+r);
       int k=1;
       for (int i=1;i<=r;i++){
         for(int j=1;j<=i;j++){
-          System.out.print(k+" ");
-          if(k==1){
-            k=0;
+         
+          if((i+j)%2!=0){
+            System.out.print(0+" ");
           }
           else{
-            k=1;
+            System.out.print(1+" ");
           }
         }
         System.out.println();
@@ -39,13 +38,14 @@
   }
     
     
-    
-    ---- Floyd's Triangle with Numbers-----
+Output:
+
+---- Floyd's Triangle with Numbers-----
  n is 7
 1 
 0 1 
-0 1 0 
-1 0 1 0 
+1 0 1 
+0 1 0 1 
 1 0 1 0 1 
 0 1 0 1 0 1 
-0 1 0 1 0 1 0 
+1 0 1 0 1 0 1 
